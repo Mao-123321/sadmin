@@ -1,4 +1,4 @@
-package com.example.sadmin.controller;
+package com.example.sadmin.config;
 
 import cn.dev33.satoken.dao.SaTokenDao;
 import cn.dev33.satoken.dao.SaTokenDaoForRedisx;

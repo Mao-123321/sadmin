@@ -1,4 +1,4 @@
-package com.example.sadmin.controller;
+package com.example.sadmin.config;
 
 import org.noear.redisx.RedisClient;
 import org.noear.solon.annotation.Bean;
