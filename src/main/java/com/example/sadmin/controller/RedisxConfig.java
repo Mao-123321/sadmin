@@ -2,11 +2,13 @@ package com.example.sadmin.controller;
 
 import org.noear.redisx.RedisClient;
 import org.noear.solon.annotation.Bean;
+import org.noear.solon.annotation.Configuration;
 import org.noear.solon.annotation.Inject;
 
 /**
  * Redisx 配置类
  */
+@Configuration
 public class RedisxConfig {
     /**
      * 构建RedisClient Bean
@@ -19,7 +21,7 @@ public class RedisxConfig {
      * @return RedisClient
      */
     @Bean
-    public RedisClient redisClient(@Inject("${test.rd1}") RedisClient client) {
+    public RedisClient redisClient(@Inject("${redis.rd1}") RedisClient client) {
         return client;
     }
 }

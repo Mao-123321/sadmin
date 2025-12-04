@@ -4,11 +4,13 @@ import cn.dev33.satoken.dao.SaTokenDao;
 import cn.dev33.satoken.dao.SaTokenDaoForRedisx;
 import org.noear.redisx.RedisClient;
 import org.noear.solon.annotation.Bean;
+import org.noear.solon.annotation.Configuration;
 import org.noear.solon.annotation.Inject;
 
 /**
  * SaToken配置类
  */
+@Configuration
 public class SaTokenConfig {
     /**
      * 构建SaTokenDao Bean
