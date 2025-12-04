@@ -5,8 +5,6 @@ import cn.hutool.crypto.SecureUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.example.sadmin.entity.proxy.UsersEntityProxy.Fields.salts;
-
 /**
  * MD5盐值加密工具类
  * @visduo
@@ -56,7 +54,6 @@ public class MD5SaltsUtil {
         // 普通MD5加密密文密码
         String md5Password = SecureUtil.md5(password);
         // 加盐MD5加密密文密码
-        String md5SaltsPassword = md5(password, "abc123");
 
         logger.debug("密码{}的普通MD5加密密文密码为：{}", password, md5Password);
         logger.debug("密码{}的加盐MD5加密密文密码为：{}", password, md5SaltsPassword);
