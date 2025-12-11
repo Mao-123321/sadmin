@@ -1,13 +1,14 @@
 package com.example.sadmin.entity;
 
+import com.easy.query.core.annotation.*;
+import com.easy.query.core.basic.extension.logicdel.LogicDeleteStrategyEnum;
+import com.easy.query.core.enums.RelationTypeEnum;
 import com.easy.query.core.proxy.ProxyEntityAvailable;
 import com.example.sadmin.entity.proxy.UsersEntityProxy;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import com.easy.query.core.annotation.Column;
-import com.easy.query.core.annotation.Table;
-import com.easy.query.core.annotation.EntityProxy;
+import org.noear.snack.annotation.ONodeAttr;
 
 /**
  * 用户表 实体类。
@@ -46,11 +47,13 @@ public class UsersEntity implements ProxyEntityAvailable<UsersEntity , UsersEnti
     /**
      * 账户密码
      */
+    @ONodeAttr(ignore = true)   // 忽略属性，不参与序列化
     private String password;
 
     /**
      * 账户盐值
      */
+    @ONodeAttr(ignore = true)   // 忽略属性，不参与序列化
     private String salts;
 
     /**
@@ -71,7 +74,18 @@ public class UsersEntity implements ProxyEntityAvailable<UsersEntity , UsersEnti
     /**
      * 删除状态，0未删除
      */
+    @LogicDelete(strategy = LogicDeleteStrategyEnum.DELETE_LONG_TIMESTAMP)
     private Long deleted;
 
+    /**
+     * 关联部门
+     */
+    @Navigate(value = RelationTypeEnum.ManyToOne)
+    private DeptEntity dept;
+    /**
+     * 关联角色
+     */
+    @Navigate(value = RelationTypeEnum.ManyToOne)
+    private RoleEntity role;
 
 }

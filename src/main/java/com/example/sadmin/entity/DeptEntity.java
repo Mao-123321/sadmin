@@ -1,5 +1,7 @@
 package com.example.sadmin.entity;
 
+import com.easy.query.core.annotation.LogicDelete;
+import com.easy.query.core.basic.extension.logicdel.LogicDeleteStrategyEnum;
 import com.easy.query.core.proxy.ProxyEntityAvailable;
 import com.example.sadmin.entity.proxy.DeptEntityProxy;
 import lombok.Data;
@@ -36,6 +38,7 @@ public class DeptEntity implements ProxyEntityAvailable<DeptEntity , DeptEntityP
     /**
      * 删除状态，0未删除
      */
+    @LogicDelete(strategy = LogicDeleteStrategyEnum.DELETE_LONG_TIMESTAMP)
     private Long deleted;
 
 

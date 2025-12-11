@@ -16,25 +16,33 @@ import org.noear.solon.annotation.Get;
 import org.noear.solon.annotation.Mapping;
 import org.noear.solon.annotation.Post;
 import org.noear.solon.core.handle.Context;
+import org.noear.solon.validation.annotation.NotBlank;
+import org.noear.solon.validation.annotation.Valid;
 
 /**
  * 权限认证
  */
+@Valid
 @Mapping("/passport")// 注意这里路径是 /passport/xxx
 @Controller
 public class PassportController {
     @Db
     EasyEntityQuery easyEntityQuery;
     @Post
-    @Mapping("login")
-    public ResponseResult login(Context ctx, String username, String password) {
+    @Mapping("/login")
+    public ResponseResult login(Context ctx,
+                                @NotBlank(message = "用户账号不能为空") String username,
+                                @NotBlank(message = "密码不能为空") String password) {
         //根据账号查询用户对象
         UsersEntity usersEntity = easyEntityQuery.queryable(UsersEntity.class)
                 .where(u ->{
                     //数据库条件：u.username = #{username}
                     u.username().eq(username);
                 })
+                .include(UsersEntityProxy::dept)
+                .include(UsersEntityProxy::role)
                 .firstOrNull();
+        //判断用户是否存在
         if (usersEntity == null){
             return ResponseResult.failure("用户不存在", null);
         }
@@ -67,15 +75,35 @@ public class PassportController {
         StpUtil.login(usersEntity.getId());
         //获取Token
         String token = StpUtil.getTokenValue();
+        // 将用户对象存储在SaToken的会话Session中
+        StpUtil.getSession().set("currentUser", usersEntity);
         //返回结果，登录成功并返回tokun给前端
         return ResponseResult.success("登录成功", token);
     }
-
+    /**
+     * 注销
+     * @visduo
+     *
+     * @return 注销结果
+     */
     @Post
-    @Mapping("logout")
+    @Mapping("/logout")
     public ResponseResult logout() {
         //注销，删除Token
         StpUtil.logout();
         return ResponseResult.success("注销成功", null);
+    }
+    /**
+     * 获取登录用户信息
+     *
+     * @return 登录用户信息实体
+     */
+    @Get
+    @Mapping("/currentUser")
+    public ResponseResult currentUser() {
+        //获取当前登录对象
+        //在登录成功时会将成功的对象存入到StpUtil中获取当前登录对象
+        UsersEntity usersEntity = (UsersEntity) StpUtil.getSession().get("currentUser");
+        return ResponseResult.success("查询成功", usersEntity);
     }
 }
