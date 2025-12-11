@@ -1,0 +1,2400 @@
+INFO  2025-12-10 09:37:08.315 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 09:37:09.401 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 09:37:09.401 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @80ms
+INFO  2025-12-10 09:37:09.402 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1435ms pid=351416 v=3.7.2
+INFO  2025-12-10 10:14:24.088 [-smarthttp-17][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 10:14:24.637 [-smarthttp-17][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 10:14:24.647 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:14:24.648 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:14:24.690 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 24(ms)
+INFO  2025-12-10 10:14:24.696 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:14:24.712 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:14:24.713 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:14:24.714 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:14:24.717 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:14:36.954 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:14:36.954 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:14:36.955 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:14:36.956 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:14:36.956 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:14:36.956 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:14:36.959 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:14:36.959 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:15:12.530 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:15:12.530 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:12.532 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:15:12.532 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:15:12.532 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:15:12.532 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:12.534 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:15:12.534 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:15:28.910 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:15:28.910 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:15:28.911 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:28.911 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:28.912 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:15:28.912 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:15:28.913 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:15:28.913 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:15:28.951 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:15:28.951 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:28.953 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:15:28.954 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:15:28.958 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:15:28.959 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:15:28.962 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:15:28.963 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:15:28.980 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:15:28.980 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:15:28.982 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:15:28.983 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:15:28.989 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:15:28.989 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:15:28.992 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:15:28.993 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:16:20.116 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:16:20.118 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:16:20.118 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:16:20.118 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:16:20.119 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:16:20.119 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:16:20.120 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:16:20.121 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:17:19.616 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `role` (`name`,`remarks`) VALUES (?,?)
+INFO  2025-12-10 10:17:19.616 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: fzw(String),地方地方的(String)
+INFO  2025-12-10 10:17:19.642 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 10:17:19.664 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:17:19.664 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:19.665 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:19.665 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:17:19.665 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:17:19.665 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:19.666 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:19.667 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:17:21.960 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:17:21.960 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:21.961 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:21.961 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:17:21.962 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:17:21.962 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:21.964 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:17:21.964 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:17:25.610 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ? AND `role_id` = ?
+INFO  2025-12-10 10:17:25.610 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),5(Integer)
+INFO  2025-12-10 10:17:25.612 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:25.612 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:17:25.622 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: UPDATE `role` SET `deleted` = ? WHERE `deleted` = ? AND `id` = ?
+INFO  2025-12-10 10:17:25.622 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1765333045619(Long),0(Integer),5(Integer)
+INFO  2025-12-10 10:17:25.628 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 10:17:25.637 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:17:25.638 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:25.639 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:25.639 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:17:25.639 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:17:25.639 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:17:25.640 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:17:25.640 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:22.219 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:22.220 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:22.221 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:22.221 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:22.221 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:22.221 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:22.223 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:22.224 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:24.625 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:24.626 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:24.626 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:24.626 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:24.627 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:24.627 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.627 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:24.627 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.627 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:24.627 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:24.628 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:23:24.628 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:24.628 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.628 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:24.629 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.629 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:23:24.630 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:24.630 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:24.632 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.632 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:24.633 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:24.633 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:24.635 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:24.635 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:25.251 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:25.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:25.253 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:25.253 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:25.253 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:25.253 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:25.255 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:25.255 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:25.823 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:25.823 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:25.824 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:25.825 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:25.825 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:23:25.825 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:25.826 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:25.826 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:26.361 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:26.361 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.362 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:26.362 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.363 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:26.363 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:26.363 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.363 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:26.363 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:26.363 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:26.364 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:23:26.364 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.364 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:26.364 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:26.364 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:26.364 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:23:26.365 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:26.365 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:26.367 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:26.367 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:26.367 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:26.368 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:26.369 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:26.369 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:26.673 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:26.673 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.675 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:26.675 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:26.677 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:26.677 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.679 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:26.679 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:26.937 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:26.937 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.939 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:26.939 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:26.939 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:23:26.939 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:26.941 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:26.942 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:27.250 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:27.251 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:27.252 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:27.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:27.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.253 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:27.254 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:27.496 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:27.496 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.496 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:27.496 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.497 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:27.497 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.497 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:27.497 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:27.497 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:27.497 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:27.498 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:27.498 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:27.499 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:23:27.499 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.501 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:27.501 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:23:27.502 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:27.503 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:27.503 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:27.503 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:27.503 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:27.503 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:27.507 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:27.508 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:27.789 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:27.789 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.790 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:27.790 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:27.791 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:27.791 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:27.793 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:27.793 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:28.032 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.032 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.034 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:28.034 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:28.034 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:23:28.034 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.035 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:28.036 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:28.402 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.403 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.404 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:28.405 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:28.405 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:28.405 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.406 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:28.406 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:28.640 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.640 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.640 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.640 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.640 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.640 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.642 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:28.642 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:28.642 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:28.642 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:28.642 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:23:28.642 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:23:28.642 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:28.642 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.643 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:28.644 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:23:28.644 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:28.645 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:28.645 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:28.645 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:28.647 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:28.648 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:28.648 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:28.650 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:28.953 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:28.953 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.954 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:28.955 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:28.955 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:23:28.955 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:28.956 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:28.957 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:29.763 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:29.763 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:29.764 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:29.764 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:29.764 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:23:29.764 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:29.765 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:23:29.765 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:30.014 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:30.014 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:30.014 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:23:30.014 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:23:30.020 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 6(ms)
+INFO  2025-12-10 10:23:30.020 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:23:30.020 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:30.020 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:30.023 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:23:30.023 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:23:30.025 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:23:30.025 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:23:30.025 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:23:30.025 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:24:04.886 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ? AND `realname` LIKE ?
+INFO  2025-12-10 10:24:04.886 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),%艾米%(String)
+INFO  2025-12-10 10:24:04.887 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:04.887 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:24:04.887 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? AND `realname` LIKE ? LIMIT 1
+INFO  2025-12-10 10:24:04.888 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),%艾米%(String)
+INFO  2025-12-10 10:24:04.890 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:04.890 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:24:04.890 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:24:04.891 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),5(Integer)
+INFO  2025-12-10 10:24:04.891 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:24:04.891 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 0
+INFO  2025-12-10 10:24:04.891 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:24:04.891 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),5(Integer)
+INFO  2025-12-10 10:24:04.893 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:24:04.893 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 0
+INFO  2025-12-10 10:24:14.297 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:24:14.298 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:14.298 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:24:14.299 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:24:14.299 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:24:14.299 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:14.300 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:14.300 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:24:14.301 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:24:14.301 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:24:14.301 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:24:14.301 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:24:14.302 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:24:14.302 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:24:14.303 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:14.303 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:24:51.694 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:24:51.694 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:51.695 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:51.695 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:24:51.695 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:24:51.695 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:51.696 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:24:51.696 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:24:53.582 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:24:53.583 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:53.584 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:53.584 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:24:53.584 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:24:53.584 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:24:53.585 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:24:53.585 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:01.234 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:25:01.235 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:25:01.235 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:01.236 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:04.633 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:04.633 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:04.634 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:04.634 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:04.634 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:04.634 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:04.634 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:04.634 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:04.634 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:25:04.634 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:04.635 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:04.635 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:04.635 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:04.635 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:04.635 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:04.635 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:25:04.635 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:04.636 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:04.636 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:04.636 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:04.638 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:04.638 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:04.638 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:04.638 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:05.179 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:05.179 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.180 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:05.180 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:05.180 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:25:05.180 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.181 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:05.181 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:05.862 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:05.862 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.862 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:05.862 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.862 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:05.862 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.862 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:05.862 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:05.863 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:05.863 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:05.863 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:05.863 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:05.863 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:25:05.863 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:05.864 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:05.864 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:25:05.865 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:05.865 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:05.866 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:25:06.126 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.130 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 4(ms)
+INFO  2025-12-10 10:25:06.130 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:06.394 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:06.394 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.394 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:06.394 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.395 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:06.395 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.395 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:06.395 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:06.395 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:06.395 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:06.395 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:06.395 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:06.396 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:25:06.396 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.396 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:06.396 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:25:06.397 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:06.397 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:06.399 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:25:06.399 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:06.399 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:25:06.399 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:25:06.402 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:25:06.402 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:06.768 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:06.769 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.770 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:06.770 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:06.770 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:25:06.770 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:06.771 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:06.771 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:25:07.769 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:07.769 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:07.770 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:25:07.771 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:07.771 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:25:07.771 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:07.772 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:07.772 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:25:59.060 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:25:59.061 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:59.062 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:59.062 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:25:59.062 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:25:59.062 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:25:59.063 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:25:59.063 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:26:11.452 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:26:11.452 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:26:11.452 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:26:11.453 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:26:11.453 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:26:11.453 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:26:11.453 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:26:11.453 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:28:57.649 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 10:28:57.650 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 10:28:57.660 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 10:28:57.661 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-10 10:29:03.761 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 10:29:04.654 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 10:29:04.654 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @73ms
+INFO  2025-12-10 10:29:04.655 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1258ms pid=337044 v=3.7.2
+INFO  2025-12-10 10:29:10.385 [-smarthttp-4][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 10:29:10.866 [-smarthttp-4][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 10:29:10.875 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:29:10.877 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:29:10.916 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 18(ms)
+INFO  2025-12-10 10:29:10.929 [-smarthttp-4][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:34:53.864 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:53.866 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:53.868 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:53.869 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:53.870 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:34:53.871 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:53.872 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:53.872 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:53.900 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:53.900 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:53.901 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:53.902 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:53.902 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:34:53.902 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:53.905 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:34:53.906 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:34:54.396 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:54.397 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.397 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:54.397 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.399 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:54.399 [-smarthttp-13][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:34:54.400 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:54.400 [-smarthttp-14][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:54.417 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:54.417 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.419 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:54.419 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:54.423 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:34:54.423 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.425 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:54.425 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:34:54.439 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:34:54.439 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:34:54.441 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:54.441 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:54.447 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:34:54.447 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:34:54.448 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:54.449 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:34:54.977 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:54.981 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:54.983 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:55.560 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:34:55.561 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:55.563 [-smarthttp-17][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:55.563 [-smarthttp-17][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:34:56.835 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:56.836 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:56.838 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:56.839 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:56.839 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:34:56.839 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:56.839 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:56.841 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:57.509 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:57.510 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:57.511 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:57.511 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:57.511 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:34:57.511 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:57.512 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:57.512 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:34:58.453 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:58.453 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:58.453 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:58.453 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:58.455 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:34:58.455 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:58.455 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:34:58.455 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:58.455 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:58.455 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:34:58.456 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:58.456 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:34:58.457 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:34:58.457 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:34:58.458 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:58.458 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:34:58.460 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:34:58.460 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:34:58.460 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:34:58.460 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:34:58.461 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:34:58.461 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:34:58.462 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:34:58.464 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:35:42.202 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:35:42.202 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:35:42.204 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:35:42.205 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:27.317 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:27.318 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:27.319 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:39:27.320 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:29.910 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:29.910 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:29.913 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:39:29.913 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:43.896 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:43.897 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:43.897 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:39:43.898 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:48.939 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:48.939 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:48.940 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:39:48.941 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:49.700 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:49.700 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:49.702 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:39:49.703 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:50.174 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:50.174 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:50.175 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:39:50.175 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:50.700 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:39:50.700 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:39:50.706 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 6(ms)
+INFO  2025-12-10 10:39:50.706 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:39:55.618 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? AND `username` = ? LIMIT 1
+INFO  2025-12-10 10:39:55.619 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),admin(String)
+INFO  2025-12-10 10:39:55.620 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:39:55.620 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:39:55.620 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:39:55.620 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:39:55.620 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:39:55.622 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:39:55.622 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:39:55.622 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:39:55.623 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:39:55.623 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:39:55.680 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-10 10:39:55.680 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1765334395(Long)
+INFO  2025-12-10 10:39:55.704 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 10:40:29.472 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? AND `username` = ? LIMIT 1
+INFO  2025-12-10 10:40:29.472 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),admin(String)
+INFO  2025-12-10 10:40:29.472 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:29.472 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:29.481 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:40:29.482 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:40:29.483 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:29.483 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:29.483 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?)
+INFO  2025-12-10 10:40:29.483 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:40:29.485 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:29.485 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:29.485 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-10 10:40:29.485 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1765334429(Long)
+INFO  2025-12-10 10:40:29.490 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 10:40:32.922 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:32.922 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:32.923 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:32.923 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:32.923 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:40:32.923 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:32.924 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:32.924 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:40:33.512 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:33.512 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:33.512 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:33.512 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:33.512 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:33.514 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:40:33.514 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:40:33.514 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:33.514 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:33.514 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:33.515 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:40:33.515 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:33.515 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:33.515 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:33.515 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:40:33.516 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:40:33.516 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:40:33.516 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:33.518 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:40:39.037 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:39.037 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:39.040 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:40:39.040 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:39.041 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:40:39.041 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:39.042 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:39.042 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:40:39.737 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:40:39.737 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:39.738 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:39.738 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:40:39.738 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:40:39.739 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:39.739 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:40:39.739 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:40:40.211 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:40:40.211 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:40:40.212 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:40:40.213 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:42:59.731 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:42:59.731 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:42:59.732 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:42:59.732 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:42:59.733 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:42:59.733 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:42:59.734 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:42:59.734 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:43:00.227 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:00.227 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.228 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.229 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:43:00.229 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:43:00.229 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.230 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.231 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:43:00.676 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:00.676 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.677 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.677 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:00.677 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:43:00.677 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.677 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 10:43:00.677 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.677 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:00.677 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:00.678 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.678 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:43:00.678 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 10:43:00.678 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.678 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:43:00.678 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:43:00.678 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:43:00.679 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:43:00.679 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:43:00.679 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:43:00.679 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 10:43:00.681 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 10:43:00.682 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:00.682 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:43:01.062 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:01.063 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:01.064 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:01.064 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:43:01.065 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:43:01.065 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:01.066 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:43:01.066 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:43:07.195 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 10:43:07.195 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 10:43:07.207 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 10:43:07.207 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-10 10:43:10.876 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 10:43:11.713 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 10:43:11.714 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @77ms
+INFO  2025-12-10 10:43:11.714 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1170ms pid=347856 v=3.7.2
+INFO  2025-12-10 10:43:17.544 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 10:43:18.003 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 10:43:18.008 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:43:18.009 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:18.045 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 17(ms)
+INFO  2025-12-10 10:43:18.049 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:43:18.063 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:43:18.063 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:43:18.066 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:43:18.069 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:43:22.363 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:43:22.363 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer)
+INFO  2025-12-10 10:43:22.364 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:43:22.365 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:45:46.366 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:45:46.367 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:45:46.368 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:45:46.369 [-smarthttp-10][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:45:46.369 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:45:46.369 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:45:46.370 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:45:46.370 [-smarthttp-10][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:46:07.481 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:46:07.481 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:46:07.482 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:46:07.483 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:46:07.483 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:46:07.483 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:46:07.484 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:46:07.484 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:46:31.246 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:46:31.246 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:46:31.247 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:46:31.247 [-smarthttp-14][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:46:31.247 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:46:31.247 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:46:31.248 [-smarthttp-14][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:46:31.249 [-smarthttp-14][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:48:15.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:48:15.252 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:15.254 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:48:15.255 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:48:15.255 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:48:15.255 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:15.256 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:48:15.257 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:48:22.437 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:48:22.437 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:22.438 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:48:22.438 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:48:22.438 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:48:22.438 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:22.440 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:48:22.441 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:48:59.753 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:48:59.753 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:59.756 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:48:59.756 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:48:59.756 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:48:59.756 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:48:59.758 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:48:59.759 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:53:15.703 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:53:15.729 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 7(ms)
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:15.736 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:53:20.219 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:20.220 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:20.222 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:53:20.223 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:21.516 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:21.516 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:21.525 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 9(ms)
+INFO  2025-12-10 10:53:21.526 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:21.667 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:21.672 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:21.672 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:21.675 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:43.373 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:53:43.373 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:43.374 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:43.375 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:53:43.375 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:53:43.375 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:43.377 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:53:43.377 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:53:44.345 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:44.345 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:44.346 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:44.347 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:45.510 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:45.510 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:45.511 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:45.512 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:45.811 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:45.811 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:45.811 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:45.811 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:46.375 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:46.375 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:46.376 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:46.377 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:46.627 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:46.627 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:46.627 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:46.627 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:47.112 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:53:47.112 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:47.113 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:47.114 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:53:52.915 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:53:52.916 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:52.917 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:52.917 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:53:52.917 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:53:52.917 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:52.918 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:53:52.919 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:53:56.215 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:53:56.216 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:56.217 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:56.217 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:53:56.217 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:53:56.217 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:53:56.220 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:53:56.220 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:54:34.405 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:54:34.405 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:54:34.408 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 10:54:34.408 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:54:34.932 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:54:34.932 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:54:34.932 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:54:34.932 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:54:35.113 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:54:35.113 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:54:35.114 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:54:35.115 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:54:35.265 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:54:35.265 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:54:35.267 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:54:35.267 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:54:35.418 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:54:35.424 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:54:35.426 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:54:35.426 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:56:14.797 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:56:14.797 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:56:14.799 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:56:14.799 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:56:14.800 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 10:56:14.800 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:56:14.801 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:56:14.802 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 10:56:16.022 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:56:16.022 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:56:16.022 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:56:16.022 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:56:16.035 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:56:16.035 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),2(Integer)
+INFO  2025-12-10 10:56:16.036 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:56:16.036 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:56:23.974 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:56:23.975 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:56:23.976 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:56:23.976 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:56:23.991 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:56:23.991 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),3(Integer)
+INFO  2025-12-10 10:56:23.993 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:56:23.993 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:58:24.934 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `role` (`name`,`remarks`) VALUES (?,?)
+INFO  2025-12-10 10:58:24.935 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 新人(String),权限少(String)
+INFO  2025-12-10 10:58:24.944 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:58:24.957 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 10:58:26.697 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:58:26.697 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:58:26.698 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:58:26.698 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:58:26.711 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:58:26.712 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 10:58:26.713 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 10:58:26.713 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:59:19.369 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 10:59:19.370 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 10:59:19.383 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 10:59:19.383 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-10 10:59:21.483 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 10:59:22.202 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 10:59:22.202 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @77ms
+INFO  2025-12-10 10:59:22.203 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1017ms pid=322732 v=3.7.2
+INFO  2025-12-10 10:59:25.058 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 10:59:25.512 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 10:59:25.518 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:59:25.519 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:59:25.550 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 14(ms)
+INFO  2025-12-10 10:59:25.559 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:59:25.593 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:59:25.594 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 10:59:25.597 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:59:25.597 [-smarthttp-4][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 10:59:31.401 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 10:59:31.401 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 10:59:31.401 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 10:59:31.405 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 10:59:31.420 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 10:59:31.420 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 10:59:31.422 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 10:59:31.422 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:01:52.655 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:01:52.656 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:01:52.657 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:01:52.659 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:01:52.659 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 11:01:52.660 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:01:52.660 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 11:01:52.661 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 11:01:56.760 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:01:56.761 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:01:56.762 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:01:56.763 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:01:56.763 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 11:01:56.763 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:01:56.765 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 11:01:56.765 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 11:01:58.328 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 11:01:58.328 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:01:58.329 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:01:58.330 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 11:01:58.341 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 11:01:58.342 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 11:01:58.343 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:01:58.343 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:03:41.643 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 11:03:41.644 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 11:03:41.655 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 11:03:41.656 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-10 11:03:43.473 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 11:03:44.525 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 11:03:44.525 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @97ms
+INFO  2025-12-10 11:03:44.527 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1400ms pid=356480 v=3.7.2
+INFO  2025-12-10 11:03:49.837 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 11:03:50.275 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 11:03:50.280 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 11:03:50.280 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:03:50.306 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 14(ms)
+INFO  2025-12-10 11:03:50.314 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 11:03:50.359 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 11:03:50.360 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 11:03:50.363 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 11:03:50.363 [-smarthttp-4][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:05:29.739 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:05:29.740 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:05:29.742 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 11:05:29.743 [-smarthttp-10][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:05:29.743 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 11:05:29.743 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:05:29.744 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 11:05:29.745 [-smarthttp-10][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 11:05:33.862 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ? AND `role_id` = ?
+INFO  2025-12-10 11:05:33.862 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 11:05:33.863 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:05:33.864 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:05:33.883 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: UPDATE `role` SET `deleted` = ? WHERE `deleted` = ? AND `id` = ?
+INFO  2025-12-10 11:05:33.883 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1765335933876(Long),0(Integer),6(Integer)
+INFO  2025-12-10 11:05:33.895 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 11:05:33.906 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:05:33.906 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:05:33.908 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 11:05:33.909 [-smarthttp-13][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:05:33.909 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 11:05:33.910 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:05:33.911 [-smarthttp-13][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:05:33.912 [-smarthttp-13][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 11:07:23.035 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:07:23.036 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:07:23.037 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:07:23.037 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:07:23.037 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 3
+INFO  2025-12-10 11:07:23.037 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:07:23.038 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 11:07:23.039 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 11:07:25.977 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 11:07:25.978 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 11:07:25.988 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 11:07:25.989 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-10 11:07:29.687 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-10 11:07:30.393 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-10 11:07:30.393 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @74ms
+INFO  2025-12-10 11:07:30.394 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=973ms pid=343072 v=3.7.2
+INFO  2025-12-10 11:07:59.755 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-10 11:08:00.248 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-10 11:08:00.255 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:08:00.256 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:08:00.290 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 19(ms)
+INFO  2025-12-10 11:08:00.300 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:08:00.317 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 11:08:00.317 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:08:00.319 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 11:08:00.322 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 11:08:01.813 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 11:08:01.813 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:08:01.815 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:08:01.816 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 11:08:01.830 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? AND `id` = ? LIMIT 1
+INFO  2025-12-10 11:08:01.830 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),6(Integer)
+INFO  2025-12-10 11:08:01.832 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:08:01.832 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:08:04.935 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: UPDATE `role` SET `perms` = ? WHERE `deleted` = ? AND `id` = ?
+INFO  2025-12-10 11:08:04.936 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1,4,7,8,9(String),0(Integer),6(Integer)
+INFO  2025-12-10 11:08:04.947 [-smarthttp-10][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-10 11:08:04.966 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 11:08:04.967 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:08:04.968 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:08:04.968 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 11:08:04.969 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 11:08:04.969 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 11:08:04.970 [-smarthttp-12][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 11:08:04.970 [-smarthttp-12][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+WARN  2025-12-10 12:44:29.059 [-HikariPool-1 housekeeper][*][c.z.h.p.HikariPool]: 
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m58s414ms239µs100ns).
+INFO  2025-12-10 12:47:01.277 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 12:47:01.277 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 40(ms)
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 12:47:01.324 [-smarthttp-15][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+WARN  2025-12-10 13:12:27.609 [-HikariPool-1 housekeeper][*][c.z.h.p.HikariPool]: 
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m28s649ms970µs700ns).
+WARN  2025-12-10 14:43:13.524 [-HikariPool-1 housekeeper][*][c.z.h.p.HikariPool]: 
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m45s706ms419µs300ns).
+INFO  2025-12-10 15:05:40.759 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 15:05:40.771 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:05:40.883 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 102(ms)
+INFO  2025-12-10 15:05:40.884 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 15:05:40.887 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 15:05:40.887 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:05:40.889 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 15:05:40.890 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:08:04.159 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:08:04.160 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:08:04.172 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 12(ms)
+INFO  2025-12-10 15:08:04.174 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:21:54.191 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:21:54.192 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:21:54.195 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-10 15:21:54.195 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:22:12.444 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:22:12.445 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:22:12.447 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 15:22:12.448 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:22:26.444 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:22:26.448 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:22:26.449 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:22:26.450 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:22:35.458 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:22:35.458 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:22:35.462 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 4(ms)
+INFO  2025-12-10 15:22:35.462 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:22:45.478 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:22:45.478 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:22:45.480 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:22:45.481 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 15:47:26.039 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:26.040 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:26.048 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 7(ms)
+INFO  2025-12-10 15:47:26.049 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:26.106 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:26.106 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:26.108 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 15:47:26.109 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:26.211 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:26.211 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:26.221 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 10(ms)
+INFO  2025-12-10 15:47:26.222 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 15:47:26.235 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 15:47:26.235 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:26.237 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 15:47:26.237 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 15:47:26.291 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 15:47:26.291 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 15:47:26.303 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 12(ms)
+INFO  2025-12-10 15:47:26.303 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:26.315 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 15:47:26.315 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 15:47:26.316 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:26.317 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 15:47:27.420 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:27.421 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:27.422 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:27.422 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 15:47:27.422 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 15:47:27.422 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:27.423 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:27.423 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:28.260 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:28.260 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:28.261 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `users` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:28.261 [-smarthttp-19][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 15:47:28.261 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:28.261 [-smarthttp-19][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:28.263 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`perms`,`remarks`,`deleted` FROM `role` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:28.263 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:28.275 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 12(ms)
+INFO  2025-12-10 15:47:28.275 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 14(ms)
+INFO  2025-12-10 15:47:28.276 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 15:47:28.276 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:28.276 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `deleted` = ? LIMIT 5
+INFO  2025-12-10 15:47:28.276 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:28.277 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:28.278 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 5
+INFO  2025-12-10 15:47:28.278 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 15:47:28.279 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 15:47:28.280 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:28.280 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:28.281 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`deleted` = ? AND t.`id` IN (?,?,?,?,?)
+INFO  2025-12-10 15:47:28.282 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer),1(Integer),2(Integer),3(Integer),4(Integer),5(Integer)
+INFO  2025-12-10 15:47:28.284 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-10 15:47:28.285 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 3
+INFO  2025-12-10 15:47:30.453 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT COUNT(*) FROM `dept` WHERE `deleted` = ?
+INFO  2025-12-10 15:47:30.454 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:30.455 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-10 15:47:30.455 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-10 15:47:30.455 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`name`,`deleted` FROM `dept` WHERE `deleted` = ? LIMIT 4
+INFO  2025-12-10 15:47:30.455 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:30.456 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 15:47:30.457 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 4
+INFO  2025-12-10 15:47:31.503 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 15:47:31.503 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 15:47:31.503 [-smarthttp-18][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 0(ms)
+INFO  2025-12-10 15:47:31.507 [-smarthttp-18][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 16:13:54.165 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`parent_id`,`name`,`identifier`,`path`,`component`,`type`,`sort_id`,`status`,`deleted` FROM `perms` WHERE `deleted` = ? ORDER BY `sort_id` ASC
+INFO  2025-12-10 16:13:54.165 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 0(Integer)
+INFO  2025-12-10 16:13:54.173 [-smarthttp-20][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 8(ms)
+INFO  2025-12-10 16:13:54.173 [-smarthttp-20][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 12
+INFO  2025-12-10 16:53:42.132 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-10 16:53:42.159 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-10 16:53:42.204 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-10 16:53:42.213 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped

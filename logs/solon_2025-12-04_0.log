@@ -1,0 +1,702 @@
+INFO  2025-12-04 09:18:27.878 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 09:18:28.645 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 09:18:28.646 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @72ms
+INFO  2025-12-04 09:18:28.646 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1064ms pid=309500 v=3.7.2
+INFO  2025-12-04 09:21:01.703 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 09:21:02.253 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 09:21:02.260 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:21:02.262 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:21:02.294 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 14(ms)
+INFO  2025-12-04 09:21:02.298 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:22:02.655 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:22:02.656 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:22:02.657 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:22:02.658 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:22:05.669 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:22:05.669 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:22:05.670 [-smarthttp-4][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:22:05.671 [-smarthttp-4][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:22:10.968 [-smarthttp-5][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:22:10.969 [-smarthttp-5][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:22:10.970 [-smarthttp-5][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:22:10.971 [-smarthttp-5][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:22:44.052 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:22:44.052 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:22:44.053 [-smarthttp-6][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:22:44.054 [-smarthttp-6][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:24:12.460 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:24:12.461 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:24:12.462 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:24:12.463 [-smarthttp-7][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:24:27.808 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 09:24:27.809 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 09:24:27.817 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 09:24:27.817 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 09:24:34.947 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 09:24:35.534 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 09:24:35.534 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @64ms
+INFO  2025-12-04 09:24:35.535 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=876ms pid=322924 v=3.7.2
+INFO  2025-12-04 09:24:39.171 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 09:24:39.491 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 09:24:39.497 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:24:39.498 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:24:39.537 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 23(ms)
+INFO  2025-12-04 09:24:39.545 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:24:39.618 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 09:24:39.618 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764811479(Long)
+INFO  2025-12-04 09:24:39.641 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 09:27:10.587 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:27:10.588 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:27:10.590 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 09:27:10.590 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:27:10.591 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 09:27:10.591 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764811630(Long)
+INFO  2025-12-04 09:27:10.597 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 09:32:26.396 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 09:32:26.397 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 09:32:26.399 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-04 09:32:26.399 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 09:32:26.400 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 09:32:26.400 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764811946(Long)
+INFO  2025-12-04 09:32:26.404 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 09:32:29.618 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 09:32:29.619 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 09:32:29.628 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 09:32:29.629 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:05:17.396 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:05:17.972 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:05:17.972 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @69ms
+INFO  2025-12-04 10:05:17.973 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=875ms pid=318776 v=3.7.2
+INFO  2025-12-04 10:05:23.755 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:05:24.259 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:05:24.262 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:05:24.263 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:05:24.320 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 48(ms)
+INFO  2025-12-04 10:05:24.331 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:05:24.430 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:05:24.430 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764813924(Long)
+INFO  2025-12-04 10:05:24.450 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:09:42.316 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:09:42.316 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:09:42.324 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:09:42.324 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:09:54.901 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:09:55.634 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:09:55.634 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @74ms
+INFO  2025-12-04 10:09:55.635 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1015ms pid=270868 v=3.7.2
+INFO  2025-12-04 10:09:59.032 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:09:59.432 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:09:59.436 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:09:59.436 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:09:59.468 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 16(ms)
+INFO  2025-12-04 10:09:59.476 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:09:59.524 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:09:59.525 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764814199(Long)
+INFO  2025-12-04 10:09:59.531 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:10:34.682 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:10:34.682 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:10:34.690 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:10:34.691 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:10:39.741 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:10:40.446 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:10:40.446 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @74ms
+INFO  2025-12-04 10:10:40.447 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=993ms pid=327560 v=3.7.2
+INFO  2025-12-04 10:10:47.969 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:10:48.314 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:10:48.320 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:10:48.321 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:10:48.361 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 23(ms)
+INFO  2025-12-04 10:10:48.367 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:10:48.426 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:10:48.426 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764814248(Long)
+INFO  2025-12-04 10:10:48.433 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:12:10.725 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:12:10.725 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:12:10.733 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:12:10.733 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:12:19.340 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:12:20.174 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:12:20.174 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @67ms
+INFO  2025-12-04 10:12:20.175 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1152ms pid=327876 v=3.7.2
+INFO  2025-12-04 10:12:25.139 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:12:25.488 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:12:25.498 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:12:25.499 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:12:25.547 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 28(ms)
+INFO  2025-12-04 10:12:25.552 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:12:25.616 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:12:25.616 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764814345(Long)
+INFO  2025-12-04 10:12:25.623 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:13:09.669 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:13:09.669 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:13:09.677 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:13:09.678 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:13:17.999 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:13:18.700 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:13:18.700 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @111ms
+INFO  2025-12-04 10:13:18.701 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1012ms pid=293180 v=3.7.2
+INFO  2025-12-04 10:13:22.924 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:13:23.228 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:13:23.234 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:13:23.234 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:13:23.271 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 23(ms)
+INFO  2025-12-04 10:13:23.279 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:13:23.319 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:13:23.320 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764814403(Long)
+INFO  2025-12-04 10:13:23.326 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:14:12.802 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:14:12.802 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:14:12.810 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:14:12.810 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:14:16.633 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:14:17.274 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:14:17.275 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @67ms
+INFO  2025-12-04 10:14:17.275 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=919ms pid=321912 v=3.7.2
+INFO  2025-12-04 10:14:23.951 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 10:14:24.270 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 10:14:24.274 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 10:14:24.274 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 10:14:24.313 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 22(ms)
+INFO  2025-12-04 10:14:24.324 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 10:14:24.378 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 10:14:24.378 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764814464(Long)
+INFO  2025-12-04 10:14:24.386 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 10:30:16.576 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:30:16.578 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 10:30:16.586 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 10:30:16.587 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:30:22.664 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:30:23.548 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:30:23.548 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @93ms
+INFO  2025-12-04 10:30:23.549 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1211ms pid=326376 v=3.7.2
+INFO  2025-12-04 10:31:51.044 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+ERROR 2025-12-04 10:31:51.678 [-main][*][o.noear.solon.Solon]: 
+Solon start failed: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at org.smartboot.socket.enhance.EnhanceAsynchronousServerSocketChannel.bind(EnhanceAsynchronousServerSocketChannel.java:117)
+	at org.smartboot.socket.transport.AioQuickServer.start(AioQuickServer.java:147)
+	at org.smartboot.socket.transport.AioQuickServer.start(AioQuickServer.java:112)
+	at org.smartboot.http.server.HttpBootstrap.start(HttpBootstrap.java:119)
+	at org.noear.solon.server.smarthttp.SmHttpServer.start(SmHttpServer.java:154)
+	at org.noear.solon.server.smarthttp.SmHttpServerComb.start(SmHttpServerComb.java:109)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin.start0(SmHttpPlugin.java:119)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin.access$000(SmHttpPlugin.java:34)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin$1.postStart(SmHttpPlugin.java:87)
+	at org.noear.solon.core.AppContext.postStartBeanLifecycle(AppContext.java:1320)
+	at org.noear.solon.core.AppContext.start(AppContext.java:1288)
+	at org.noear.solon.SolonApp.run(SolonApp.java:414)
+	at org.noear.solon.SolonApp.startDo(SolonApp.java:267)
+	at org.noear.solon.Solon.start(Solon.java:226)
+	at org.noear.solon.Solon.start(Solon.java:167)
+	at org.noear.solon.Solon.start(Solon.java:144)
+	at com.example.sadmin.App.main(App.java:9)
+INFO  2025-12-04 10:31:51.684 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:31:51.685 [-main][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:32:19.298 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+ERROR 2025-12-04 10:32:19.970 [-main][*][o.noear.solon.Solon]: 
+Solon start failed: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+	at org.smartboot.socket.enhance.EnhanceAsynchronousServerSocketChannel.bind(EnhanceAsynchronousServerSocketChannel.java:117)
+	at org.smartboot.socket.transport.AioQuickServer.start(AioQuickServer.java:147)
+	at org.smartboot.socket.transport.AioQuickServer.start(AioQuickServer.java:112)
+	at org.smartboot.http.server.HttpBootstrap.start(HttpBootstrap.java:119)
+	at org.noear.solon.server.smarthttp.SmHttpServer.start(SmHttpServer.java:154)
+	at org.noear.solon.server.smarthttp.SmHttpServerComb.start(SmHttpServerComb.java:109)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin.start0(SmHttpPlugin.java:119)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin.access$000(SmHttpPlugin.java:34)
+	at org.noear.solon.server.smarthttp.integration.SmHttpPlugin$1.postStart(SmHttpPlugin.java:87)
+	at org.noear.solon.core.AppContext.postStartBeanLifecycle(AppContext.java:1320)
+	at org.noear.solon.core.AppContext.start(AppContext.java:1288)
+	at org.noear.solon.SolonApp.run(SolonApp.java:414)
+	at org.noear.solon.SolonApp.startDo(SolonApp.java:267)
+	at org.noear.solon.Solon.start(Solon.java:226)
+	at org.noear.solon.Solon.start(Solon.java:167)
+	at org.noear.solon.Solon.start(Solon.java:144)
+	at com.example.sadmin.App.main(App.java:9)
+INFO  2025-12-04 10:32:19.976 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:32:19.977 [-main][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:32:45.433 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 10:32:45.434 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 10:33:03.485 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 10:33:04.166 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 10:33:04.167 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @68ms
+INFO  2025-12-04 10:33:04.167 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=971ms pid=279084 v=3.7.2
+INFO  2025-12-04 11:25:46.300 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 11:25:46.312 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 11:25:49.479 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 11:25:50.176 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 11:25:50.176 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @73ms
+INFO  2025-12-04 11:25:50.177 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=995ms pid=266372 v=3.7.2
+INFO  2025-12-04 11:26:17.612 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 11:26:17.614 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 11:26:20.233 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 11:26:20.859 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 11:26:20.860 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @71ms
+INFO  2025-12-04 11:26:20.860 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=899ms pid=279124 v=3.7.2
+INFO  2025-12-04 11:26:53.148 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 11:26:53.149 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 11:26:56.089 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 11:26:56.747 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 11:26:56.748 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @72ms
+INFO  2025-12-04 11:26:56.749 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=980ms pid=273692 v=3.7.2
+INFO  2025-12-04 11:28:03.593 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 11:28:04.144 [-smarthttp-1][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 11:28:04.151 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 11:28:04.152 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 11:28:04.209 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 37(ms)
+INFO  2025-12-04 11:28:04.218 [-smarthttp-1][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 11:28:04.315 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 11:28:04.316 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764818884(Long)
+INFO  2025-12-04 11:28:04.346 [-smarthttp-1][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 11:50:29.819 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 11:50:29.820 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 11:50:29.829 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 11:50:29.830 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 15:17:06.065 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 15:17:06.935 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 15:17:06.935 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @80ms
+INFO  2025-12-04 15:17:06.936 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=1155ms pid=331236 v=3.7.2
+INFO  2025-12-04 15:17:22.880 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 15:17:23.401 [-smarthttp-3][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 15:17:23.406 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 15:17:23.407 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 15:17:23.447 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 24(ms)
+INFO  2025-12-04 15:17:23.454 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:17:23.484 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:17:23.484 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:17:23.497 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 13(ms)
+INFO  2025-12-04 15:17:23.497 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:17:23.501 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:17:23.501 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:17:23.503 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-04 15:17:23.505 [-smarthttp-3][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:17:23.609 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 15:17:23.609 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764832643(Long)
+INFO  2025-12-04 15:17:23.637 [-smarthttp-3][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 15:18:43.952 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 15:18:43.953 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 15:18:43.955 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-04 15:18:43.955 [-smarthttp-7][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:18:43.956 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:18:43.956 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:18:43.957 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 15:18:43.957 [-smarthttp-7][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:18:43.958 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:18:43.958 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:18:43.959 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 15:18:43.959 [-smarthttp-7][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:18:43.960 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 15:18:43.960 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764832723(Long)
+INFO  2025-12-04 15:18:43.964 [-smarthttp-7][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
+INFO  2025-12-04 15:36:53.994 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 15:36:53.995 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 15:36:53.999 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 3(ms)
+INFO  2025-12-04 15:36:53.999 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:36:54.000 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:36:54.000 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:36:54.002 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-04 15:36:54.002 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:36:54.002 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:36:54.003 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:36:54.004 [-smarthttp-8][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 15:36:54.005 [-smarthttp-8][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:40:01.668 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 15:40:01.670 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 15:40:01.671 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 15:40:01.672 [-smarthttp-9][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:40:01.673 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:40:01.673 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:40:01.675 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 2(ms)
+INFO  2025-12-04 15:40:01.675 [-smarthttp-9][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:40:01.676 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`id` IN (?)
+INFO  2025-12-04 15:40:01.676 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 15:40:01.677 [-smarthttp-9][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 15:40:01.677 [-smarthttp-9][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 15:40:20.629 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 15:40:20.629 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown initiated...
+INFO  2025-12-04 15:40:20.646 [-Thread-0][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Shutdown completed.
+INFO  2025-12-04 15:40:20.646 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 15:40:29.597 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 15:40:30.266 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 15:40:30.266 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @76ms
+INFO  2025-12-04 15:40:30.267 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=976ms pid=334756 v=3.7.2
+WARN  2025-12-04 15:40:34.888 [-smarthttp-1][*][o.n.solon.SolonApp]: 
+SolonApp tryHandle failed, code=400
+org.noear.solon.validation.ValidatorException: 密码不能为空
+	at org.noear.solon.validation.ValidUtils.validateInvocation(ValidUtils.java:62)
+	at org.noear.solon.validation.BeanValidateInterceptor.doIntercept(BeanValidateInterceptor.java:31)
+	at org.noear.solon.core.aspect.InterceptorEntity.doIntercept(InterceptorEntity.java:55)
+	at org.noear.solon.core.aspect.Invocation.invoke(Invocation.java:134)
+	at org.noear.solon.core.wrap.MethodWrap.invokeByAspect(MethodWrap.java:288)
+	at org.noear.solon.core.handle.ActionDefault.executeDo(ActionDefault.java:407)
+	at org.noear.solon.core.handle.ActionDefault.invokeMethodDo(ActionDefault.java:347)
+	at org.noear.solon.core.handle.ActionDefault.invokeHandleDo(ActionDefault.java:324)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:51)
+	at org.noear.solon.core.handle.ActionDefault.invokeFilterDo(ActionDefault.java:316)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:51)
+	at org.noear.solon.validation.ContextValidateHandler.doFilter(ContextValidateHandler.java:34)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:49)
+	at org.noear.solon.core.handle.ActionDefault.invoke(ActionDefault.java:290)
+	at org.noear.solon.core.handle.ActionDefault.handle(ActionDefault.java:267)
+	at org.noear.solon.core.route.RouterHandler.handleMain(RouterHandler.java:51)
+	at org.noear.solon.core.route.RouterHandler.handle1(RouterHandler.java:71)
+	at org.noear.solon.core.route.RouterInterceptorChainImpl.doIntercept(RouterInterceptorChainImpl.java:54)
+	at cn.dev33.satoken.solon.integration.SaTokenInterceptor.doIntercept(SaTokenInterceptor.java:233)
+	at org.noear.solon.core.route.RouterInterceptorLimiter.doIntercept(RouterInterceptorLimiter.java:63)
+	at org.noear.solon.core.route.RouterInterceptorChainImpl.doIntercept(RouterInterceptorChainImpl.java:52)
+	at org.noear.solon.core.ChainManager.doRouterIntercept(ChainManager.java:261)
+	at org.noear.solon.core.route.RouterHandler.handle(RouterHandler.java:103)
+	at org.noear.solon.core.handle.HandlerPipeline.handle(HandlerPipeline.java:53)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:51)
+	at cn.dev33.satoken.solon.integration.SaFirewallCheckFilterForSolon.doFilter(SaFirewallCheckFilterForSolon.java:61)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:49)
+	at cn.dev33.satoken.solon.integration.SaTokenCorsFilterForSolon.doFilter(SaTokenCorsFilterForSolon.java:49)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:49)
+	at cn.dev33.satoken.solon.integration.SaTokenContextFilterForSolon.doFilter(SaTokenContextFilterForSolon.java:35)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:49)
+	at org.noear.solon.logging.integration.MdcClearFilter.doFilter(MdcClearFilter.java:33)
+	at org.noear.solon.core.handle.FilterChainImpl.doFilter(FilterChainImpl.java:49)
+	at org.noear.solon.core.ChainManager.doFilter(ChainManager.java:119)
+	at org.noear.solon.SolonApp.tryHandle(SolonApp.java:625)
+	at org.noear.solon.server.smarthttp.http.SmHttpContextHandler.handleDo(SmHttpContextHandler.java:123)
+	at org.noear.solon.server.smarthttp.http.SmHttpContextHandler.handle0(SmHttpContextHandler.java:101)
+	at org.noear.solon.server.smarthttp.http.SmHttpContextHandler.lambda$handle$0(SmHttpContextHandler.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+INFO  2025-12-04 15:46:11.491 [-Thread-0][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Has Stopped (smart http 2.5/3.7.2)
+INFO  2025-12-04 15:46:11.492 [-Thread-0][*][o.noear.solon.Solon]: 
+App: Stopped
+INFO  2025-12-04 15:47:15.228 [-main][*][o.noear.solon.Solon]: 
+App: Start loading
+INFO  2025-12-04 15:47:15.920 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+solon.connector:main: smarthttp: Started ServerConnector@{HTTP/1.1,[http/1.1]}{http://localhost:8080}
+INFO  2025-12-04 15:47:15.921 [-main][*][o.n.s.s.s.i.SmHttpPlugin]: 
+Server:main: smarthttp: Started (smart http 2.5/3.7.2) @74ms
+INFO  2025-12-04 15:47:15.921 [-main][*][o.noear.solon.Solon]: 
+App: End loading elapsed=990ms pid=327052 v=3.7.2
+INFO  2025-12-04 16:12:38.514 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Starting...
+INFO  2025-12-04 16:12:39.034 [-smarthttp-2][*][c.z.h.HikariDataSource]: 
+HikariPool-1 - Start completed.
+INFO  2025-12-04 16:12:39.042 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT `id`,`dept_id`,`role_id`,`username`,`password`,`salts`,`realname`,`remarks`,`status`,`deleted` FROM `users` WHERE `username` = ? LIMIT 1
+INFO  2025-12-04 16:12:39.043 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: admin(String)
+INFO  2025-12-04 16:12:39.077 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 17(ms)
+INFO  2025-12-04 16:12:39.084 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 16:12:39.110 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`deleted` FROM `dept` t WHERE t.`id` IN (?)
+INFO  2025-12-04 16:12:39.110 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 16:12:39.119 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 9(ms)
+INFO  2025-12-04 16:12:39.121 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 16:12:39.124 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: SELECT t.`id`,t.`name`,t.`perms`,t.`remarks`,t.`deleted` FROM `role` t WHERE t.`id` IN (?)
+INFO  2025-12-04 16:12:39.124 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer)
+INFO  2025-12-04 16:12:39.127 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Time Elapsed: 1(ms)
+INFO  2025-12-04 16:12:39.128 [-smarthttp-2][*][c.e.q.c.b.j.e.i.e.DefaultJdbcResult]: 
+<== Total: 1
+INFO  2025-12-04 16:12:39.200 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Preparing: INSERT INTO `loginlog` (`user_id`,`ip`,`address`,`timestamp`) VALUES (?,?,?,?)
+INFO  2025-12-04 16:12:39.200 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+==> Parameters: 1(Integer),0:0:0:0:0:0:0:1(String),未知(String),1764835959(Long)
+INFO  2025-12-04 16:12:39.226 [-smarthttp-2][*][c.e.q.c.u.EasyJdbcExecutorUtil]: 
+<== Total: 1
